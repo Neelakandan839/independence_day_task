@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(rgb(255, 115, 0),white,rgb(10, 100, 2));   
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    height: 681px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    color: rgb(124, 8, 124);
+    background: linear-gradient(
+            to right,red, #f32170,blue, #ff6b08,
+             #cf23cf, brown,green,black,grey);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+

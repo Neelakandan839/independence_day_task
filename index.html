@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="countdown">10</div>
+    <script>
+        var count = 10;
+
+        function timer() {
+            let counter = setInterval(() => {
+                count = count - 1;
+                if (count <= 0) {
+                    clearInterval(count);
+                    document.getElementById("countdown").innerHTML = "HAPPY INDEPENDENCE DAY";
+                } else {
+                    document.getElementById("countdown").innerHTML = count;
+              }
+            }, 1000)
+        }
+        timer();
+    </script>
+</body>
+
+</html>
